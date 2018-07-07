@@ -1,7 +1,7 @@
 # Repositorio-Actividades-Fedesoft
 Capacitación desarrollo FullStack
 
-Capacitación Desarrollo FullStack y Tecnologías Hibridas.  ![Image](repository.jpg)
+Capacitación Desarrollo FullStack y Tecnologías Hibridas.  <p style="text-align:center">![Image](repository.jpg)</p>
 =======
 
 ## Descripción
