@@ -6,7 +6,7 @@ Capacitación Desarrollo FullStack y Tecnologías Híbridas.  <p align="center">
 
 ## Descripción
  
-Contiene las actividades correspondientes a la capacitación, la cual se distribuirá en las siguientes carpetas:
+Este repositorio contiene las actividades correspondientes a la capacitación, la cual se distribuirá en las siguientes carpetas:
 
 ---
 Clases: 
