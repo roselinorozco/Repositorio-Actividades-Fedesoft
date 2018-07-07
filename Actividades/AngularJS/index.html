@@ -1,0 +1,49 @@
+<!doctype>
+<html ng-app="aplicacion">
+    <head>
+        <title>Hola AngularJS</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="librerias/angularJS/angular.min.js"></script>
+        <script src="scripts/app.js"></script>
+    </head>
+    <body ng-controller="EquiposCtrl">
+       
+        <div class="container">
+            <div class="cabezote">Octavos de Final</div>
+
+            <div ng-if="ejemploEquipos.length>0">
+
+                    <div ng-repeat="equipos in ejemploEquipos">
+                       <div ng-if="$index % 2 == 0" >
+                           
+                                             
+                           <div class="equipos locales">
+                                <div>
+                                        <img src="http://www.countryflags.io/{{equipos[1]}}/flat/64.png">  
+                                </div>
+                                <div>
+                                        {{equipos[0]}}
+                                </div>
+                             
+                            </div>
+                       </div>
+                       
+                       <div ng-if="$index % 2 != 0" >
+                           
+                           
+                           <div class="equipos visitantes">
+                                <div>
+                                        <img src="http://www.countryflags.io/{{equipos[1]}}/flat/64.png">   
+                                </div>
+                                <div>
+                                        {{equipos[0]}}
+                                </div>
+                                
+                            </div>
+                       </div>
+                    </div>
+               </div>
+        </div>
+        
+    </body>
+</html>
